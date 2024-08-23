@@ -1,0 +1,10 @@
+[package]
+name = "shares"
+# version = "0.0.1"
+edition = "2024.beta"
+
+[dependencies]
+Sui = { local = "F:/sui-testnet-v1.31.1/crates/sui-framework/packages/sui-framework" }
+
+[addresses]
+shares = "0x0"
